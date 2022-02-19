@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
-import BG from './Wave.svg'
+
 
 const features = [
   {

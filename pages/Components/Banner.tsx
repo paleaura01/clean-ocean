@@ -12,7 +12,7 @@ export default function Example() {
             </span>
             <p className="ml-3 text-lg font-bold text-white truncate ">
               <span className="md:hidden">We announced a new product!</span>
-              <span className="hidden md:inline">Big news! We're excited to announce a brand new Deckhands NFT series!</span>
+              <span className="hidden md:inline">Big news! We are excited to announce a brand new Deckhands NFT series!</span>
             </p>
           </div>
           <div className="flex-shrink-0 order-3 w-full mt-2 sm:order-2 sm:mt-0 sm:w-auto">
