@@ -4,7 +4,7 @@ import { SpeakerphoneIcon, XIcon } from '@heroicons/react/outline'
 export default function Example() {
   return (
     <div className="bg-sky-700">
-      <div className="px-3 py-3 mx-auto max-w-8xl sm:px-6 lg:px-12">
+      <div className="px-3 py-3 mx-auto max-w-8xl sm:px-6 lg:px-20">
         <div className="flex flex-wrap items-center justify-between">
           <div className="flex items-center flex-1 w-0">
             <span className="flex p-2 bg-red-500 rounded-lg">

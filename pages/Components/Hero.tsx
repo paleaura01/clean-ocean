@@ -19,8 +19,8 @@ const navigation = [
  
 export default function Example() {
     return (
-      <div className="relative overflow-hidden lg:pr-24">
-        <div className="w-full w-screen mx-auto max-w-7xl">
+      <div className="relative overflow-hidden lg:pr-28">
+        <div className="w-full w-screen md:mx-auto lg:mx-28 max-w-7xl">
           <div className="relative z-10 pt-6 pb-4 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
   
@@ -141,7 +141,7 @@ export default function Example() {
  
         <div className="flex items-center justify-center lg:absolute z-5 lg:inset-y-0 lg:right-0 lg:w-face">
             
-        <div className="z-10 justify-center pb-28 lg:absolute player-wrapper">
+        <div className="z-10 justify-center pb-28 ">
             <ReactPlayer
                 url='https://youtu.be/alsAp1WHD84'
                     controls={false}
