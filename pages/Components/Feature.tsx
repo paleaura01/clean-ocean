@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import BG from './Wave.svg'
 
 const features = [
   {
@@ -30,6 +31,7 @@ const features = [
 
 export default function Example() {
   return (
+
     <div className="py-12 bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="lg:text-center">
