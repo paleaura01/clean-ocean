@@ -16,7 +16,8 @@ export default function Home() {
       <Previews />
       <Products />
       <CTA /> */}
-      
+       
+       
     </div>
   );
 }
