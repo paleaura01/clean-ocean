@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    loader: 'custom',
+    loader: '',
     path: '',
   },
   exportPathMap: async function (
