@@ -139,7 +139,7 @@ export default function Example() {
           </div>
         </div>
  
-        <div className="flex items-center justify-center inset-y-10 lg:absolute z-5 lg:inset-y-0 lg:right-0 lg:w-face">
+        <div className="flex items-center justify-center lg:absolute z-5 lg:inset-y-0 lg:right-0 lg:w-face">
             
         <div className="z-10 justify-center pb-28 lg:absolute player-wrapper">
             <ReactPlayer
