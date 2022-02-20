@@ -1,0 +1,14 @@
+  <div>
+  <Image 
+  src={EF2}
+  className="object-cover lg:w-full lg:h-full"
+  layout="fill"
+  />
+  </div>
+<Image 
+  src={EF1}
+  className="object-cover lg:w-full lg:h-full"
+  layout="fill"
+  />
+  
+</div>

@@ -10,18 +10,18 @@ import Image from "next/image";
 
 
 const navigation = [
-  { name: 'NFTs', href: '#' },
+  { name: 'NFTs', href: 'https://crypto.com/nft/profile/kevthefisherman?tab=collectibles' },
   { name: 'Roadmap', href: '#' },
-  { name: 'Marketplace', href: '#' },
   { name: 'Merch', href: '#' },
+  { name: 'Sponsors', href: '#' },
 ]
 
  
 export default function Example() {
     return (
-      <div className="relative overflow-hidden lg:pr-28">
+      <div className="relative overflow-hidden">
         <div className="w-full w-screen md:mx-auto lg:mx-28 max-w-7xl">
-          <div className="relative z-10 pt-6 pb-4 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          <div className="relative z-10 pt-6 pb-4 bg-white lg:bg-transparent sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
   
             <Popover>
@@ -69,7 +69,7 @@ export default function Example() {
                   className="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden"
                 >
                   <div className="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
-                    <div className="flex items-center justify-between px-5 pt-4">
+                    <div className="flex items-center justify-between px-5 pt-4 ">
                       <div>
                         <img
                           className="w-auto h-8"
@@ -141,7 +141,7 @@ export default function Example() {
  
         <div className="flex items-center justify-center lg:absolute z-5 lg:inset-y-0 lg:right-0 lg:w-face">
             
-        <div className="z-10 justify-center pb-28 ">
+        <div className="z-10 justify-center border-2 border-transparent pb-28 ">
             <ReactPlayer
                 url='https://youtu.be/alsAp1WHD84'
                     controls={false}
@@ -155,13 +155,13 @@ export default function Example() {
             </div> 
                 <Image 
                     src={BG2}
-                    className="object-cover h-56 opacity-40 sm:h-70 md:h-96 lg:w-full lg:h-full"
+                    className="object-cover h-56 opacity-50 sm:h-70 md:h-96 lg:w-full lg:h-full"
                     layout="fill"
                     />
         </div>
 
 
-        <div className="z-0 object-top -mt-8">
+        <div className="z-0 flex object-top -mt-8">
         <Image 
                             src={BG}
                             className=""

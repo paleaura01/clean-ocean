@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'custombg': '#356CA7',
+      },
       width: {
         '85.33': '21.3rem',
         '128': '32rem',

@@ -1,65 +1,43 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import RM from './pngwing.com (2).png';
+import Image from "next/image";
 
-
-const features = [
-  {
-    name: 'Competitive exchange rates',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: GlobeAltIcon,
-  },
-  {
-    name: 'No hidden fees',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: ScaleIcon,
-  },
-  {
-    name: 'Transfers are instant',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: LightningBoltIcon,
-  },
-  {
-    name: 'Mobile notifications',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: AnnotationIcon,
-  },
-]
 
 export default function Example() {
   return (
 
-    <div className="py-12 bg-white">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">Transactions</h2>
-          <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            A better way to send money
+    <div className="py-12 bg-custombg">
+      <div className="px-4 max-w-8xl sm:px-6 lg:ml-20 lg:px-16">
+        <div className="lg:text-left">
+
+            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">
+            Roadmap
           </p>
-          <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
-          </p>
+          <div className="flex items-center justify-between">
+          <h1 className="max-w-2xl mt-4 mb-10 text-xl font-medium text-white lg:text-left">
+          Big Dirty 2 NFT Project, is an Ocean clean up effort in NFT form with Crypto Prizes. There will be 10,000 unique Deckhands in sets of 10, for a total of 100,000 available.
+
+        Additionally we will be having crypto draws from 2,500-50,000$ along the way, letting one lucky deckhand walk away with 50,000$ in Crypto.com CRO
+
+        We pledge to remove a pound of garbage per dollar spent on Deckhands from the oceans and waterways of Cape Breton, Nova Scotia with a total goal of 1,000,000lb of trash!
+        Our site and twitter feed will be updated weekly until the project is complete and we send our lucky supporters the final cash prize.
+
+        Donations made on our site will be used to buy Deckhands, if any of those win a draw we will redraw until a Deckhand is selected thats not affiliated with our team or site.
+          </h1>
+          <div className="invisible pr-16 lg:visible">
+          <Image 
+                    src={RM}
+                    className=""
+                    layout="fixed"
+                    height="300"
+                    
+                    />
+    
+                   </div>
+          </div>
+          
         </div>
 
-        <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                    <feature.icon className="w-6 h-6" aria-hidden="true" />
-                  </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-gray-900">{feature.name}</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
+
       </div>
     </div>
   )

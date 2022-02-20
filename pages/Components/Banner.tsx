@@ -17,7 +17,7 @@ export default function Example() {
           </div>
           <div className="flex-shrink-0 order-3 w-full mt-2 sm:order-2 sm:mt-0 sm:w-auto">
             <a
-              href="#"
+              href="https://crypto.com/nft/profile/kevthefisherman?tab=collectibles"
               className="flex items-center justify-center px-4 py-2 font-extrabold text-white border border-transparent rounded-md shadow-sm text-md bg-sky-500 hover:bg-sky-400"
             >
               Buy Now!
@@ -26,7 +26,7 @@ export default function Example() {
           <div className="flex-shrink-0 order-2 sm:order-3 sm:ml-3">
             <button
               type="button"
-              className="flex p-2 -mr-1 rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
+              className="flex p-2 -mr-1 rounded-md hover:bg-red-500 focus:outline-none focus:ring-red sm:-mr-2"
             >
               <span className="sr-only">Dismiss</span>
               <XIcon className="w-6 h-6 text-white" aria-hidden="true" />
